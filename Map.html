@@ -1,0 +1,111 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<html>
+
+<head>
+
+<title> Map </title>
+
+</head>
+
+<body>
+
+<h2> Graphics (52.359) Assignment 2 - Jan 6th 2009 </h2>
+
+<h1> Colin But </h1>
+
+<h3> Student number: 200624706 </h3>
+
+<hr>
+
+<h1> Map </h1>
+
+<p> I tried to implement the Map of Glasgow City Centre. It is near enough accurate.  </p>
+
+<h5> Instructions/ user guide </h5>
+<p> Keyboard keys:</p>
+<table>
+   <tr>
+      <td>
+         <ul type=circle>
+             <li> <b>left</b> - <em>move left</em> </li>
+             <li> <b>right</b> - <em>move right</em> </li>
+             <li> <b>up</b> - <em>move up</em> </li>
+             <li> <b>down</b> - <em>move down</em> </li>
+  
+
+         </ul>
+      </td>
+      <td>
+         <ul type=circle>
+             <li> <b>t</b> - <em>move towards you (Zoom in)</em> </li>
+             <li> <b>shift</b> - <em>move away from you (Zoom out)</em> </li>
+  
+         </ul>
+      </td>
+      <td>
+         <ul type=circle>
+            <li> <b>x</b> - <em>rotate x axis</em> </li>
+            <li> <b>y</b> - <em>rotate y axis</em> </li>
+            <li> <b>z</b> - <em>rotate z axis</em> </li>
+            
+         </ul>
+      </td>
+      <td>
+         <ul type=circle>
+            <li> <b>a</b> - <em>rotate x axis (but other direction)</em> </li>
+            <li> <b>b</b> - <em>rotate y axis (but other direction)</em> </li>
+            <li> <b>c</b> - <em>rotate z axis (but other direction)</em> </li>
+         </ul>
+      </td>
+</tr>
+</table>
+
+<p> Java Applet should load instantly... </p>
+
+<p> Click on applet (center of page) to enable keyboard input </p>
+
+<center>
+<embed  ALIGN = "CENTER" TYPE="application/x-java-applet;version=1.6"
+     PLUGINSPACE="http://java.sun.com/products/plugin/1.6/plugin-install.html" CODE="GApplet.class"
+       WIDTH=500 HEIGHT=460> </embed>
+</center>
+
+<h3> Approach </h3>
+<p> I have taken the 1st option to approach this assignment: </p>
+<p> <b> The Java Route </b> - Extending the 2d and 3d classes introduced in the lectures
+    . </p>
+
+<p> <b> features </b> </p>
+
+<p> I have attempted to implement the following features: </p>
+
+<ul type=square>
+     <li>Basic 3D shapes </li>
+     <li>Displaying simple shapes using either a wireframe/flat surface representation </li>
+     <li>A means of projection (a perspective view) </li>
+     <li>Hidden Surface removal - Vector approach (Ok - it works, although i haven't implemented <br>
+            removal of hidden surface ambiguities) </li>
+     <li>Shading: used filled polygons to represent the surface </li>
+     <li>Implemented Lighting - Lambert Shading </li>
+     <li>Viewpoint Transformations (Zooming in & out) </li>
+     <li> Multi-threaded Double Buffering </li>
+     <li> User control of transformations using keyboard keys </li>
+</ul>
+
+<p> I therefore believe that the assignment fall in the 80% - 100% category. </p>
+
+<p> <b> <u> Links </u> </b> </p>
+
+<p> The source code can be found at my directory: <a name="" href=.> here </a> </p>
+
+<p> Alternatively it is available as a downloadable zip <a href="3D Map.zip"> file </a> </p>
+
+<p> &copy; Colin But 2009 </p>
+
+</body>
+
+</html>
