@@ -1,10 +1,13 @@
-package com.mycompany.map3d; /**
- * 
+/*
+ * |-------------------------------------------------
+ * | Copyright © 2009 Colin But. All rights reserved.
+ * |-------------------------------------------------
  */
-import com.mycompany.map3d.MapData;
+package com.mycompany.map3d;
 
 import java.awt.Color;
 import java.util.*;
+
 /**
  * @author Colin
  *

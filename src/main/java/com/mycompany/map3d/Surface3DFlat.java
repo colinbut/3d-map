@@ -1,7 +1,9 @@
-package com.mycompany.map3d; /**
- * 
+/*
+ * |-------------------------------------------------
+ * | Copyright © 2009 Colin But. All rights reserved.
+ * |-------------------------------------------------
  */
-import com.mycompany.map3d.GItem3D;
+package com.mycompany.map3d;
 
 import java.awt.*;
 import java.util.*;

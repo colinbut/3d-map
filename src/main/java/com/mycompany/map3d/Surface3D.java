@@ -1,6 +1,10 @@
-package com.mycompany.map3d; /**
- * 
+/*
+ * |-------------------------------------------------
+ * | Copyright © 2009 Colin But. All rights reserved.
+ * |-------------------------------------------------
  */
+package com.mycompany.map3d;
+
 import java.awt.*;
 import java.util.*;
 /**
